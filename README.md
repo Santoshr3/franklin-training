@@ -3,7 +3,7 @@ Your project's description...
 
 ## Environments
 - Preview: https://main--franklin-training--Santoshr3.hlx.page
-- Live: https://main--franklin-training--Santoshr3.hlx.live/
+- Live: https://main--franklin-training--Santoshr3.hlx.page.live/
 
 ## Installation
 
