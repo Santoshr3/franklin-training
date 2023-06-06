@@ -250,6 +250,7 @@ header nav .nav-sections ul > li > ul > li {
     padding: 1em;
     background-color: var(--highlight-background-color);
     white-space: initial;
+    top: 150% !important;
   }
 
   header nav .nav-sections > ul > li > ul::before {
@@ -262,6 +263,7 @@ header nav .nav-sections ul > li > ul > li {
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
     border-bottom: 8px solid var(--highlight-background-color);
+    display: none;
   }
 
   header nav .nav-sections > ul > li > ul > li {
