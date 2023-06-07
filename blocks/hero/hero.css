@@ -20,10 +20,15 @@ main .hero h1 {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  color: white;
   margin-top: 52px;
+  color: #002f6d;
 }
-
+main .hero h1{
+  color: #002f6d;
+  max-width: 540px;
+  margin: 0;
+  padding: 0 0 56px 0;
+}
 main .hero picture {
   position: absolute;
   z-index: -1;
@@ -39,4 +44,11 @@ main .hero img {
   object-fit: cover;
   width: 100%;
   height: 100%;
+}
+.hero.block > div {
+    width: 100%;
+    max-width: 990px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }

@@ -302,3 +302,10 @@ header nav .nav-sections > ul > li[aria-expanded="true"] > ul{
     background-color: #fff !important;
     padding: 25px 15px 19px 16px !important;
 }
+.hero.block > div {
+    width: 100%;
+    max-width: 990px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
