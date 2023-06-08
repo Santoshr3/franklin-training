@@ -238,67 +238,22 @@ main .section {
   }
 }
 
-/* section metadata */
-/*main .section.highlight {
-  background-color: var(--highlight-background-color);
-}
-.page-heading.block strong{
-  background-color: yellow;
-}
-main .hero{
-  min-height: 520px !important;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-main .hero h1{
-  text-align: center;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-*/
-header nav[aria-expanded="true"]{
-    padding-top: 16px;
-    padding-bottom: 16px;
-    height: 118px;
-}
-.nav-sections li{
-    font-size: 16px;
-    line-height: 100%;
-    letter-spacing: 0.53px;
-    color: #002f6d;
-}
-header nav .nav-sections .nav-drop::after{
-    top: 5px !important;
-    right: 2px !important;
-    width: 5px !important;
-    height: 5px !important;
-}
-.nav-tools {
-    display: flex;
-    align-items: center;
-    gap: 22px;
-    font-size: 16px;
-    line-height: 100%;
-    letter-spacing: 0.53px;
-    color: #002f6d;
-    font-weight: 500;
-}
-.nav-tools a{
-    width: 116px;
-    height: 42px;
-    border-radius: 15px;
-    background-color: #002f6d;
-    color: #fff !important;
-    font-size: 16px;
-    line-height: 42px;
+.shopifyblock.block {
+    width: 100%;
+    max-width: 700px;
+    padding: 50px 15px 63px 15px;
+    margin: 0 auto;
     text-align: center;
-    display: block;
 }
-header nav .nav-sections > ul > li[aria-expanded="true"] > ul{
-    min-width: 268px !important;
-    border-radius: 20px !important;
-    box-shadow: 3px 5px 14px 3px rgba(38,39,41,0.13) !important;
-    background-color: #fff !important;
-    padding: 25px 15px 19px 16px !important;
+h4#design-for-manufacturability{
+  font-size: 42px;
+    line-height: 1.6;
+    letter-spacing: 0.2px;
+    color: #54565b;
+    margin: 0 0 12px;
+    font-weight: normal;
+}
+.shopifyblock.block p{
+  line-height: 1.5;
+    font-size: 16px;
 }
