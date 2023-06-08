@@ -144,8 +144,8 @@ a.button:any-link, button {
   font-style: normal;
   font-weight: 600;
   cursor: pointer;
-  color: var(--background-color);
-  background-color: var(--link-color);
+  color: #fff;
+  background-color: #002f6d;
   margin: 16px 0;
   white-space: nowrap;
   overflow: hidden;
@@ -227,7 +227,7 @@ main .section {
 
 @media (min-width: 600px) {
   main .section {
-    padding: 64px 32px;
+    padding: 0;
   }
 }
 
@@ -301,11 +301,4 @@ header nav .nav-sections > ul > li[aria-expanded="true"] > ul{
     box-shadow: 3px 5px 14px 3px rgba(38,39,41,0.13) !important;
     background-color: #fff !important;
     padding: 25px 15px 19px 16px !important;
-}
-.hero.block > div {
-    width: 100%;
-    max-width: 990px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
 }
