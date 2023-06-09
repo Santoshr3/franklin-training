@@ -253,11 +253,73 @@ h4#design-for-manufacturability{
     margin: 0 0 12px;
     font-weight: normal;
 }
+h2#optical-design-applications {
+    text-align: center;
+    color: #54565b;
+    font-weight: normal;
+    font-size: 34px;
+}
 .shopifyblock.block p{
   line-height: 1.5;
     font-size: 16px;
 }
 .columnsdesignapp.block > div {
     display: flex;
+    padding: 0 15px 63px;
+}
+.columnsdesignapp.block > div > div {
     padding: 0 15px;
+    max-width: 33.33%;
+    flex: 0 0 33.33%;
+    flex-grow: 1;
+    flex-basis: auto;
+}
+.columnsdesignapp.block > div > div h5{
+    color: #54565b;
+    font-size: 24px;
+    margin: 0;
+    margin:10px 0 13px;
+
+}
+.columnsdesignapp.block > div > div ul{
+  padding: 0;
+}
+.columnsdesignapp.block > div > div li{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #54565b;
+    list-style-position: inside;
+    display: block;
+    padding-left: 8px;
+    margin-bottom: 4px;
+    position: relative;
+    z-index: 0;}
+.columnsdesignapp.block > div > div li:before{
+    content: '';
+    height: 2px;
+    width: 2px;
+    background: #54565b;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.columnsdesignapp.block > div > div a{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+    color: #f77f00;
+    position: relative;
+    z-index: 0;
+    transition: all 0.3s linear 0s;
+    background: transparent;
+    margin: 0;
+    text-align: left;
+    padding: 0;
+    margin-bottom: 0 !important;
+}
+.columnsdesignapp.block > div > div a:hover{
+  text-decoration-color: #f77f00;
+  text-decoration: underline;
 }
